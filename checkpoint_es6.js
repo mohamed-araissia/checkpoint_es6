@@ -5,7 +5,7 @@ let pets = [
 ];
 
 
-let petsWithAge=(el)=>pets.forEach(el=>{el.age=new Date().getFullYear() - el.bornOn});
+let petsWithAge=()=>pets.forEach(el=>{el.age=new Date().getFullYear() - el.bornOn});
 //petsWithAge();
 console.log(pets);
 
